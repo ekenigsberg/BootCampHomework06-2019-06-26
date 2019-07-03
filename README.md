@@ -12,6 +12,7 @@ to<br/>
   * This regression has an **R² of 0.292**, meaning that the model explains a little less than one-third of the variation in Temperatures between cities, using solely Distance from Equator in Miles. Not bad.
   * The **< 0.01% P-stat** for the coefficient of Distance from Equator in Miles means it is highly likely to be significant.
   * Because the original question asked, _"What's the weather like **as we approach the equator**?"_, I opted to transform Latitude into Distance from the Equator using the insight from [Sciencing.com](http://bit.ly/latitudetomiles) that one degree of latitude is equal to about 69.2 miles.
+  * The few (four!) cities in my data set that were below freezing testify that the relationship is far from iron-clad: one of them is in Peru (?!). The other three are in all Southern Argentina. A little surprising that nothing from, say, Australia, fell into the sample.
   * ![Distance from Equator vs Temperature](https://github.com/ekenigsberg/BootCampHomework06-2019-06-26/blob/master/Dist%20vs%20Temp.png)
   * ![Distance from Equator vs Temperature Regression](https://github.com/ekenigsberg/BootCampHomework06-2019-06-26/blob/master/Dist%20vs%20Temp%20LinReg.png)
 
