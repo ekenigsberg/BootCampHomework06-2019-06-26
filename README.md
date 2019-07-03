@@ -7,7 +7,8 @@ to<br/>
 # WeatherPy Analysis
 
 * **Temperature does indeed increase as we approach the equator.** 
-  * Linear regression shows that, at the time of the analysis, we expect a city's temperature at the equator to be 82.8 degrees Fahrenheit, and that temperature decreases by 0.0062 degrees per mile from the equator: **TempF = -0.0062 × EqtrDistMi + 82.7643**
+  * Linear regression shows that, at the time of the analysis, we expect a city's temperature at the equator to be 82.8 degrees Fahrenheit, and that temperature decreases by 0.0062 degrees per mile from the equator:
+  * **TempF = -0.0062 × EqtrDistMi + 82.7643**
   * This regression has an **R² of 0.292**, meaning that the model explains a little less than one-third of the variation in Temperatures between cities, using solely Distance from Equator in Miles. Not bad.
   * The **< 0.01% P-stat** for the coefficient of Distance from Equator in Miles means it is highly likely to be significant.
   * Because the original question asked, _"What's the weather like **as we approach the equator**?"_, I opted to transform Latitude into Distance from the Equator using the insight from [Sciencing.com](http://bit.ly/latitudetomiles) that one degree of latitude is equal to about 69.2 miles.
