@@ -18,7 +18,7 @@ to<br/>
 * **Neither Humidity, nor Cloud Cover, nor Wind Speed is similarly explained by proximity to the equator.**
   * The graphs for those relationships look random, regardless whether using Latitude or Distance from Equator in Miles.
   * The linear regressions agree: the R²s for those regressions range from 0.000 to 0.003, with coefficient P-stats that can't reject the null hypothesis with confidence.
-  * ![Distance from Equator vs Humidity](https://github.com/ekenigsberg/BootCampHomework06-2019-06-26/blob/master/Dist%20vs%20Temp.png)
+  * ![Distance from Equator vs Humidity](https://github.com/ekenigsberg/BootCampHomework06-2019-06-26/blob/master/Dist%20vs%20Hum.png)
   * ![Distance from Equator vs Cloudiness](https://github.com/ekenigsberg/BootCampHomework06-2019-06-26/blob/master/Dist%20vs%20Cloud.png)
   * ![Distance from Equator vs Wind Speed](https://github.com/ekenigsberg/BootCampHomework06-2019-06-26/blob/master/Dist%20vs%20Wind.png)
 
