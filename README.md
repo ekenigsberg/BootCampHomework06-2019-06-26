@@ -34,4 +34,4 @@ to<br/>
 
 * Transforming Latitude into Distance from Equator enables running linear regressions. The **ols()** method from the **statsmodels.formula.api** library produces nicely-formatted output from plain-English parameters like **'Y~A+B'**.
 * Because all four analyses are essentially the same (just with different variables and graph boundaries), I created a function to spit out the graphs.
-* I was tickled to learn that [the documentation tells us](https://matplotlib.org/users/colors.html) that Matplotlib accepts [color names](https://matplotlib.org/users/colors.html) as determined in a survey conducted by the great, nerdy [comic strip xkcd](https://xkcd.com): just name the color with the **xkcd:** prefix and use plain English (eg, **'xkcd:purplish pink'**).
+* I was tickled to learn that [the documentation tells us](https://matplotlib.org/users/colors.html) that Matplotlib accepts [color names](https://xkcd.com/color/rgb/) as determined in a survey conducted by the great, nerdy [comic strip xkcd](https://xkcd.com): just name the color with the **xkcd:** prefix and use plain English (eg, **'xkcd:purplish pink'**).
